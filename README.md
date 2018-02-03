@@ -34,7 +34,7 @@ First make sure you have everything you need in *hadoop*, I use *hue* tool s ver
 
 Be careful to chose what works with your application *ODBC 32 bit* or *64 bit*, here is the configuration that works for me.
 
-<img src="./images/ODBCconf.png" width=30% align="middle">
+<img src="./images/ODBCConf.png" width=30% align="middle">
 
 
 # Testing C# first
