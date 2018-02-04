@@ -9,6 +9,7 @@ As I am a fa experimenting, I like to install everything by myself, this is a wa
  - Oozie 4.3.0 (optional)
  - Hue 3.12.0
  - Elastic 6.x, Kibana 6.x
+ - Elastic Hadoop HDFS repository plugin
 
 **Installed on Windows**
 
@@ -20,9 +21,11 @@ First make sure you have everything you need in *hadoop*, I use *hue* tool s ver
 
 ## Hue
 
+Here under you have an example of a query `select * from blueprism limit 1000`. The table `blueprism` is a proxy to an elastic index called blueprism.
+
 <img src="./images/hue-3.12.0.png" width=100% align="middle">
 
-## Sample of using Hive to access Elastic table from Hue
+## Sample of proxy using Hive to access Elastic table from Hue
 
 <img src="./images/hue-elastictable.png" width=100% align="middle">
 
