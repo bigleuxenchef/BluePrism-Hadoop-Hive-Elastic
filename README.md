@@ -214,9 +214,6 @@ There are two actions related to Hive : *Configure Hive* and *Get Collection Fro
     actionname: 'Get Collection',
     processduration: 24.504,
     duration: 0 } ]
-
-
-
 ```
 
 
